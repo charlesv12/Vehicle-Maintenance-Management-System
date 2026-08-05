@@ -67,6 +67,7 @@ $overall = $maintenance['service_cost'] + $total_parts;
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" href="style.css">
 <title>Maintenance Parts</title>
 </head>
 <body>
