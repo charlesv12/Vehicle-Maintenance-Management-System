@@ -6,7 +6,7 @@ if ($conn->connect_error) {
 }
 
 // Add Vehicle
-if (isset($_POST['add'])) {
+if (isset($_POST['add_vehicle'])) {
 
     $vehicleModel = htmlspecialchars($_POST['vehicleModel']);
     $vehiclePlateNum = htmlspecialchars($_POST['vehiclePlateNum']);
